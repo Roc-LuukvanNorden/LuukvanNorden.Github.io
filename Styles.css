@@ -7,13 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #000000;
+    color: #2d4ea1;
+    background-color: #928c8c;
 }
 
 header {
     background: #333;
-    color: #fff;
+    color: #2d4ea1;
     padding: 1rem;
 }
 
@@ -28,7 +28,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #2d4ea1;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ header nav ul li a {
 .hero-content .btn {
     padding: 10px 20px;
     background-color: #007bff;
-    color: #fff;
+    color: #af92f4;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -66,6 +66,11 @@ header nav ul li a {
     padding: 3rem 1.5rem;
     background: white;
     margin: 20px 0;
+}
+#about img{
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
 }
 
 #projects .project-grid {
