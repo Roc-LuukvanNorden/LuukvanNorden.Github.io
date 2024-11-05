@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#videos">Video's</a></li>
-                <li><a href="#mywork">My Work</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -21,101 +21,51 @@
 
     <section id="hero">
         <div class="hero-content">
-            <h1>Welcome to The Last Stand Of The Worms!</h1>
-            <p></p>
-
-            <a href="#videos" class="btn">View Trailers</a>
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm Luuk van Norden, a Software Developer Student at Roc van Twente.</p>
+            <a href="#projects" class="btn">View My Work</a>
         </div>
     </section>
 
     <section id="about">
-        <h2>About The Game</h2>
-        <p>The Last Stand of the Worms is a game where you play as a worm while you try to survive in the wild.
-           Survive as long as you can while getting stronger and faster, the only downside the longer you survive the stronger the enemies get.
-           Unlock stronger allies by surviving, they shall help you defeat your enemies and win the battle!
-           So join The Last Stand Of The Worms!!
+        <h2>About Me</h2>
+        <p>I'm a Student Developer with a passion for C#. I am also able to work with other coding languages like Html and Css but i prefer C#. I would however like to learn new skills.
         </p>
     </section>
 
-    <section id="videos">
-        <h2>Game Trailers</h2>
+    <section id="projects">
+        <h2>Projects</h2>
         <div class="project-grid">
             <div class="project">
-                <video controls width="100%" height="100%">
-                    <source src="Worm introduction.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <h3>The Last Stand OF The Worms</h3>
+                <p><a href="TheLastStandOfTheWorms.html" class="btn">Learn More About the Game</a> <!-- Link to a new page --></p>
             </div>
             <div class="project">
-                <video controls width="100%" height="100%">
-                    <source src="The-LastStand.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <h3>Project Two</h3>
+                <p>Description of project two.</p>
             </div>
-
+            <div class="project">
+                <h3>Project Three</h3>
+                <p>Description of project three.</p>
+            </div>
         </div>
     </section>
 
-    <section id="mywork">
-        <h2>My Work</h2>
-        <p>Personaly I worked on quite a few different things like the video's shown on this website. Furthermore I also worked on:</p>
+    <section id="skills">
+        <h2>Skills</h2>
         <ul class="skills-list">
-            <li>The bow and arrow script for Gustaffo.</li>
-            <li>I made the designs for the weapons from Ru Chong and Gorden</li>
-            <li>I also created the desings of Ru Chong, Gustaffo and Gorden</li>
-            <li>I also made the script for the frog enemy unfortinatly we couldnt include him in the game due to time issues</li>
-          
+            <li>HTML 5/10</li>
+            <li>CSS 6/10</li>
+            <li>C# 7/10</li>
+            <li>JavaScript 3/10</li>
+            <li>Python 5/10</li>
         </ul>
-        <div class="image-grid">
-            <div class="image-item">
-                <a href="#img1">
-                    <img src="Gustaffo.png" alt="Gustaffo Character Design">
-                </a>
-                <p>Gustaffo Character Design</p>
-            </div>
-            <div class="image-item">
-                <a href="#img2">
-                    <img src="ArrowScript.png" alt="Bow and Arrow Script Demo">
-                </a>
-                <p>Bow and Arrow Script Demo</p>
-            </div>
-            <div class="image-item">
-                <a href="#img3">
-                    <img src="RuChongWeapon.png" alt="Ru Chong Weapon Design">
-                </a>
-                <p>Ru Chong Weapon Design</p>
-            </div>
-            <div class="image-item">
-                <a href="#img4">
-                    <img src="GordenWeapon.png" alt="Gorden Weapon Design">
-                </a>
-                <p>Gorden Weapon Design</p>
-            </div>
-        </div>
-    
-        <!-- Lightbox Overlays -->
-        <div class="lightbox" id="img1">
-            <a href="#mywork" class="close">&times;</a>
-            <img src="Gustaffo.png" alt="Gustaffo Character Design">
-        </div>
-        <div class="lightbox" id="img2">
-            <a href="#mywork" class="close">&times;</a>
-            <img src="ArrowScript.png" alt="Bow and Arrow Script Demo">
-        </div>
-        <div class="lightbox" id="img3">
-            <a href="#mywork" class="close">&times;</a>
-            <img src="RuChongWeapon.png" alt="Ru Chong Weapon Design">
-        </div>
-        <div class="lightbox" id="img4">
-            <a href="#mywork" class="close">&times;</a>
-            <img src="GordenWeapon.png" alt="Gorden Weapon Design">
-        </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
         <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
-        <a href="mailto:youremail@example.com" class="btn">Email Me</a>
+        <a href="mailto:Luukvannorden@outlook.com" class="btn">Email Me</a>
     </section>
 
     <footer>
